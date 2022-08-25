@@ -1,0 +1,16 @@
+n = int(input("enter limit of first set:"))
+m = int(input("enter limit of second set:"))
+X = set()
+Y = set()
+for i in range(0,n):
+   q = input("Enter Element of set1:")
+   X.add(q)
+for i in range(0,m):
+   q = input("Enter Element of set2:")
+   Y.add(q)
+print("set 1:",X)
+print("set 2:",Y)
+print("Union of the sets is:",X | Y)
+print("intersection of the sets is:",X & Y)
+print("difference of the sets is:",X - Y)
+print("symmetric difference of the sets is:",X ^ Y)
